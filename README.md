@@ -60,8 +60,8 @@ Gültige Einträge für die *tableName* finden sich unter [https://regionalatlas
 |Bevölkerungsdichte (EW je qkm)|AI0201|Anzahl|Bevölkerungsstand - Geburten - Gestorbene - Wanderungen|AI002-1-5|Bevölkerung|
 |Bevölkerungsentwicklung im Jahr je 10.000 EW|AI0202|Anzahl|Bevölkerungsstand - Geburten - Gestorbene - Wanderungen|AI002-1-5|Bevölkerung|
 |Anteil der ausländischen Bevölkerung  an der Gesamtbevölkerung|AI0208|Prozent|Bevölkerungsstand - Geburten - Gestorbene - Wanderungen|AI002-1-5|Bevölkerung|
-|Lebendgeborene je 10.000 EW|AI0209|Anzahl|Bevölkerungsstand - Geburten - Gestorbene - Wanderungen|AI002-1-5|Bevölkerung|
-|Gestorbene je 10.000 EW|AI0210|Anzahl|Bevölkerungsstand - Geburten - Gestorbene - Wanderungen|AI002-1-5|Bevölkerung|
+|Lebendgeborene je 1.000 EW|AI0209|Anzahl|Bevölkerungsstand - Geburten - Gestorbene - Wanderungen|AI002-1-5|Bevölkerung|
+|Gestorbene je 1.000 EW|AI0210|Anzahl|Bevölkerungsstand - Geburten - Gestorbene - Wanderungen|AI002-1-5|Bevölkerung|
 |Geburten-/Gestorbenenüberschuss je 10.000 EW|AI0211|Anzahl|Bevölkerungsstand - Geburten - Gestorbene - Wanderungen|AI002-1-5|Bevölkerung|
 |Wanderungssaldo je 10.000 EW|AI0212|Anzahl|Bevölkerungsstand - Geburten - Gestorbene - Wanderungen|AI002-1-5|Bevölkerung|
 |Bevölkerung 0 bis 17 Jahre|AI0203|Prozent|Bevölkerung nach Alter|AI002-2-5|Bevölkerung|
@@ -82,7 +82,25 @@ Gültige Einträge für die *tableName* finden sich unter [https://regionalatlas
 |Betreuungsquote 0 bis 2 Jahre am 01.03.|AI0306|Prozent|Betreuungsquote|AI003-3|Bildung|
 |Betreuungsquote 3 bis 5 Jahre am 01.03.|AI0307|Prozent|Betreuungsquote|AI003-3|Bildung|
 |Gewerbeanmeldungen je 10.000 EW|AI0401|Anzahl|Gewerbeanmeldungen|AI004-1|Unternehmen|
-|Unternehmensinsolvenzen je 10.000 steuerpfl. Unternehmen|AI0402|Anzahl|Unternehmensinsolvenzen|AI004-2|Unternehmen|
+|Beantragte Unternehmensinsolvenzen je 10.000 steuerpfl. Unternehmen|AI0402|Anzahl|Unternehmensinsolvenzen|AI004-2|Unternehmen|
+|AB insgesamt je 1.000 EW im erwerbsfähigen Alter|AI0403|Anzahl|Statistisches Unternehmensregister: Abhängig Beschäftigte (AB) je 1.000 EW|AI004-3|Unternehmen|
+|AB im Bergbau je 1.000 EW im erwerbsfähigen Alter|AI0404|Anzahl|Statistisches Unternehmensregister: Abhängig Beschäftigte (AB) je 1.000 EW|AI004-3|Unternehmen|
+|AB im Verarbeitenden Gewerbe je 1.000 EW im erwerbsfähigen Alter|AI0405|Anzahl|Statistisches Unternehmensregister: Abhängig Beschäftigte (AB) je 1.000 EW|AI004-3|Unternehmen|
+|AB in der Energieversorgung je 1.000 EW im erwerbsfähigen Alter|AI0406|Anzahl|Statistisches Unternehmensregister: Abhängig Beschäftigte (AB) je 1.000 EW|AI004-3|Unternehmen|
+|AB in der Wasserversorgung je 1.000 EW im erwerbsfähigen Alter|AI0407|Anzahl|Statistisches Unternehmensregister: Abhängig Beschäftigte (AB) je 1.000 EW|AI004-3|Unternehmen|
+|AB im Baugewerbe je 1.000 EW im erwerbsfähigen Alter|AI0408|Anzahl|Statistisches Unternehmensregister: Abhängig Beschäftigte (AB) je 1.000 EW|AI004-3|Unternehmen|
+|AB im Handel je 1.000 EW im erwerbsfähigen Alter|AI0409|Anzahl|Statistisches Unternehmensregister: Abhängig Beschäftigte (AB) je 1.000 EW|AI004-3|Unternehmen|
+|AB in Verkehr und Lagerei je 1.000 EW im erwerbsfähigen Alter|AI0410|Anzahl|Statistisches Unternehmensregister: Abhängig Beschäftigte (AB) je 1.000 EW|AI004-3|Unternehmen|
+|AB im Gastgewerbe je 1.000 EW im erwerbsfähigen Alter|AI0411|Anzahl|Statistisches Unternehmensregister: Abhängig Beschäftigte (AB) je 1.000 EW|AI004-3|Unternehmen|
+|AB in der IKT je 1.000 EW im erwerbsfähigen Alter|AI0412|Anzahl|Statistisches Unternehmensregister: Abhängig Beschäftigte (AB) je 1.000 EW|AI004-3|Unternehmen|
+|AB in Finanz- und  Versich.dienstl. je 1.000 EW im erwerbsf. Alter|AI0413|Anzahl|Statistisches Unternehmensregister: Abhängig Beschäftigte (AB) je 1.000 EW|AI004-3|Unternehmen|
+|AB im Grundst.- und Wohnungswesen je 1.000 EW im erwerbsf. Alter|AI0414|Anzahl|Statistisches Unternehmensregister: Abhängig Beschäftigte (AB) je 1.000 EW|AI004-3|Unternehmen|
+|AB in freib./ wissensch./ techn. DL je 1.000 EW im erwerbsf. Alter|AI0415|Anzahl|Statistisches Unternehmensregister: Abhängig Beschäftigte (AB) je 1.000 EW|AI004-3|Unternehmen|
+|AB in sonst. wirtschaftl. Dienstl. je 1.000 EW im erwerbsf. Alter|AI0416|Anzahl|Statistisches Unternehmensregister: Abhängig Beschäftigte (AB) je 1.000 EW|AI004-3|Unternehmen|
+|AB in Erziehung und Unterricht je 1.000 EW im erwerbsf. Alter|AI0417|Anzahl|Statistisches Unternehmensregister: Abhängig Beschäftigte (AB) je 1.000 EW|AI004-3|Unternehmen|
+|AB im Gesundheits- und Sozialwesen je 1.000 EW im erwerbsf. Alter|AI0418|Anzahl|Statistisches Unternehmensregister: Abhängig Beschäftigte (AB) je 1.000 EW|AI004-3|Unternehmen|
+|AB in Kunst, Unterh. und Erholung je 1.000 EW im erwerbsf. Alter|AI0419|Anzahl|Statistisches Unternehmensregister: Abhängig Beschäftigte (AB) je 1.000 EW|AI004-3|Unternehmen|
+|AB in sonstigen Dienstleistungen je 1.000 EW im erwerbsf. Alter|AI0420|Anzahl|Statistisches Unternehmensregister: Abhängig Beschäftigte (AB) je 1.000 EW|AI004-3|Unternehmen|
 |Zweitstimmenanteil CDU/CSU, Bundestagswahl|AI0501|Prozent|Bundestagswahl|AI005|Wahlen|
 |Zweitstimmenanteil SPD, Bundestagswahl|AI0502|Prozent|Bundestagswahl|AI005|Wahlen|
 |Zweitstimmenanteil FDP, Bundestagswahl|AI0503|Prozent|Bundestagswahl|AI005|Wahlen|
@@ -106,21 +124,23 @@ Gültige Einträge für die *tableName* finden sich unter [https://regionalatlas
 |Anteil ET Handel, Verkehr, Gastgewerbe, Informat., Kommun.|AI0707|Prozent|Erwerbstätige (ET) nach Wirtschaftsbereichen|AI007-1|Erwerbstätigkeit und Arbeitslosigkeit|
 |Anteil ET Finanz-, Versich.-, Unt.-dl., Grundst.-, Wohnungsw.|AI0708|Prozent|Erwerbstätige (ET) nach Wirtschaftsbereichen|AI007-1|Erwerbstätigkeit und Arbeitslosigkeit|
 |Anteil ET Öffentl. u. sonst. Dienstl., Erziehung, Gesundh.|AI0709|Prozent|Erwerbstätige (ET) nach Wirtschaftsbereichen|AI007-1|Erwerbstätigkeit und Arbeitslosigkeit|
+|Beschäftigtenquote am 30.06.|AI0710|Prozent|Beschäftigtenquote|AI007-2|Erwerbstätigkeit und Arbeitslosigkeit|
 |Arbeitslosenquote|AI0801|Prozent|Arbeitslosenquote, Anteil Arbeitslose|AI008-1-5|Erwerbstätigkeit und Arbeitslosigkeit|
 |Anteil Arbeitslose 15-24 Jahre an Arbeitslosen insgesamt|AI0806|Prozent|Arbeitslosenquote, Anteil Arbeitslose|AI008-1-5|Erwerbstätigkeit und Arbeitslosigkeit|
 |Anteil Arbeitslose 55-64 Jahre an Arbeitslosen insgesamt|AI0807|Prozent|Arbeitslosenquote, Anteil Arbeitslose|AI008-1-5|Erwerbstätigkeit und Arbeitslosigkeit|
 |Anteil Langzeitarbeitslose an Arbeitslosen insgesamt|AI0808|Prozent|Arbeitslosenquote, Anteil Arbeitslose|AI008-1-5|Erwerbstätigkeit und Arbeitslosigkeit|
 |Anteil der ausl. Arbeitslosen an Arbeitslosen insgesamt |AI0809|Prozent|Arbeitslosenquote, Anteil Arbeitslose|AI008-1-5|Erwerbstätigkeit und Arbeitslosigkeit|
-|Arbeitslosenquote Männer|AI0802|Prozent|Arbeitslosenquote ausgewählte Personengruppen|AI008-2|Erwerbstätigkeit und Arbeitslosigkeit|
-|Arbeitslosenquote Frauen|AI0803|Prozent|Arbeitslosenquote ausgewählte Personengruppen|AI008-2|Erwerbstätigkeit und Arbeitslosigkeit|
-|Arbeitslosenquote 15 bis 24 Jahre|AI0804|Prozent|Arbeitslosenquote ausgewählte Personengruppen|AI008-2|Erwerbstätigkeit und Arbeitslosigkeit|
-|Arbeitslosenquote Ausländerinnen und Ausländer|AI0805|Prozent|Arbeitslosenquote ausgewählte Personengruppen|AI008-2|Erwerbstätigkeit und Arbeitslosigkeit|
+|Arbeitslosenquote Männer|AI0802|Prozent|Arbeitslosenquote für ausgewählte Personengruppen|AI008-2|Erwerbstätigkeit und Arbeitslosigkeit|
+|Arbeitslosenquote Frauen|AI0803|Prozent|Arbeitslosenquote für ausgewählte Personengruppen|AI008-2|Erwerbstätigkeit und Arbeitslosigkeit|
+|Arbeitslosenquote 15 bis 24 Jahre|AI0804|Prozent|Arbeitslosenquote für ausgewählte Personengruppen|AI008-2|Erwerbstätigkeit und Arbeitslosigkeit|
+|Arbeitslosenquote Ausländerinnen und Ausländer|AI0805|Prozent|Arbeitslosenquote für ausgewählte Personengruppen|AI008-2|Erwerbstätigkeit und Arbeitslosigkeit|
 |Durchschnittliche Betriebsgröße|AI0901|ha|Landwirtschaftl. Betriebe - Viehhaltung|AI009|Landwirtschaft|
 |Rinder je 100 ha landwirtschaftlich genutzter Fläche|AI0902|Anzahl|Landwirtschaftl. Betriebe - Viehhaltung|AI009|Landwirtschaft|
 |Schweine je 100 ha landwirtschaftlich genutzter Fläche|AI0903|Anzahl|Landwirtschaftl. Betriebe - Viehhaltung|AI009|Landwirtschaft|
 |Investitionen je Beschäftigten|AI1001|Tsd. EUR|Investitionen|AI010-1|Industrie|
 |Bruttoentgelte je Beschäftigten|AI1002|Tsd. EUR|Bruttoentgelte|AI010-2-5|Industrie|
 |Anteil neue Wohngebäude mit 1 oder 2 Wohnungen|AI1101|Prozent|Bautätigkeit und Wohnen|AI011-5|Bauen und Wohnen|
+|Fertiggestellte Wohnungen je 1.000 EW|AI1102|Anzahl|Bautätigkeit und Wohnen|AI011-5|Bauen und Wohnen|
 |Durchschnittliche Aufenthaltsdauer|AI1201|Tage|Beherbergung|AI012-5|Tourismus|
 |Übernachtungen je EW|AI1202|Anzahl|Beherbergung|AI012-5|Tourismus|
 |Pkw-Bestand je 1.000 EW am 01.01.|AI1301|Anzahl|Pkw-Dichte|AI013-1|Verkehr|
@@ -155,18 +175,37 @@ Gültige Einträge für die *tableName* finden sich unter [https://regionalatlas
 |verbrauchsabhängig. Entgelt Trinkwasserversorgung pro m³|AI1906|EUR|Wasserentgelt|AI019-1-5|Umwelt|
 |verbrauchsunabhängig. Entgelt für Trinkwasserversorgung|AI1907|EUR|Wasserentgelt|AI019-1-5|Umwelt|
 |Wasserabgabe je EW und Tag (in Liter)|AI1908|l|Wasserversorgung, Wasserabgabe|AI019-2|Umwelt|
-|Elterngeldbezug Vater|AI1801|Prozent|Elterngeldbezug|AIG-018|Gender|
+|Väteranteil Elterngeldbezug|AI1801|Prozent|Elterngeldbezug|AIG-018|Gender|
 |Anteil betreute Kinder 0-2 Jahre in Tageseinrichtungen am 01.03.|AI0301|Prozent|Kinderbetreuung|AIG-03-1|Gender|
 |Anteil betreute Kinder 0-2 Jahre in Tagespflege am 01.03.|AI0302|Prozent|Kinderbetreuung|AIG-03-1|Gender|
 |Anteil männl. Schulabgänger mit allgemeiner Hochschulreife|AI0310|Prozent|Bildung|AIG-03-2|Gender|
 |Anteil männlicher Schulabgänger ohne Hauptschulabschluss|AI0308|Prozent|Bildung|AIG-03-2|Gender|
 |Anteil männlicher Schulabgänger mit Hauptschulabschluss|AI0309|Prozent|Bildung|AIG-03-2|Gender|
+|Beschäftigtenquote Männer am 30.06.|AI0711|Prozent|Erwerbstätigkeit|AIG-07-2|Gender|
+|Beschäftigtenquote Frauen am 30.06.|AI0712|Prozent|Erwerbstätigkeit|AIG-07-2|Gender|
+|Index Beschäftigtenquote am 30.06.|AI0713|Prozent|Erwerbstätigkeit|AIG-07-2|Gender|
 |Arbeitslosenquote Männer|AI0802|Prozent|Arbeitslosigkeit|AIG-08-2|Gender|
 |Arbeitslosenquote Frauen|AI0803|Prozent|Arbeitslosigkeit|AIG-08-2|Gender|
-|Grundsicherungsquote Männer ab 65 Jahre|AI2203|Prozent|Grundsicherung|AIG-22|Gender|
-|Grundsicherungsquote Frauen ab 65 Jahre|AI2204|Prozent|Grundsicherung|AIG-22|Gender|
+|Grundsicherungsquote Männer ab Altersgrenze|AI2203|Prozent|Grundsicherung|AIG-22|Gender|
+|Grundsicherungsquote Frauen ab Altersgrenze|AI2204|Prozent|Grundsicherung|AIG-22|Gender|
 |Index Grundsicherungsquote|AI2205|Prozent|Grundsicherung|AIG-22|Gender|
 |Anteil Männer am pädag. Personal in Kindertageseinrichtungen am 01.03.|AI2401|Prozent|Männliches pädagogisches Personal|AIG-24|Gender|
+|Gesundheitsausgaben je Einwohner/-in|GSAUS201|EUR|Gesundheitsausgaben|AIGG-01|Gesundheitsökonomische Gesamtrechnungen|
+|Anteil der Ausgaben der Gesetzlichen Krankenversicherung (GKV) an den gesamten Gesundheitsausgaben|GSAAI22|Prozent|Gesundheitsausgaben|AIGG-01|Gesundheitsökonomische Gesamtrechnungen|
+|Anteil der Ausgaben der Privaten Krankenversicherung (PKV) an den gesamten Gesundheitsausgaben|GSAAI26|Prozent|Gesundheitsausgaben|AIGG-01|Gesundheitsökonomische Gesamtrechnungen|
+|Anteil der Ausgaben der Sozialen Pflegeversicherung (SPV) an den gesamten Gesundheitsausgaben|GSAAI23|Prozent|Gesundheitsausgaben|AIGG-01|Gesundheitsökonomische Gesamtrechnungen|
+|Ant. d. Ausgaben der Priv. Haush. u. Organisationen o. Erwerbszweck a. d. ges. Gesundheitsausgaben|GSAAI28|Prozent|Gesundheitsausgaben|AIGG-01|Gesundheitsökonomische Gesamtrechnungen|
+|Gesundheitspersonal je 1.000 Einwohner/-innen am 31.12.|GSP102|Anzahl|Gesundheitspersonal|AIGG-02|Gesundheitsökonomische Gesamtrechnungen|
+|Gesundheitspersonal je 1.000 Einwohner/-innen in Arztpraxen|GSPAI121|Anzahl|Gesundheitspersonal|AIGG-02|Gesundheitsökonomische Gesamtrechnungen|
+|Gesundheitspersonal je 1.000 Einwohner/-innen in Zahnarztpraxen|GSPAI122|Anzahl|Gesundheitspersonal|AIGG-02|Gesundheitsökonomische Gesamtrechnungen|
+|Gesundheitspersonal je 1.000 Einwohner/-innen in Apotheken|GSPAI124|Anzahl|Gesundheitspersonal|AIGG-02|Gesundheitsökonomische Gesamtrechnungen|
+|Gesundheitspersonal je 1.000Einwohner/-innen in der ambulanten Pflege|GSPAI126|Anzahl|Gesundheitspersonal|AIGG-02|Gesundheitsökonomische Gesamtrechnungen|
+|Gesundheitspersonal je 1.000 Einwohner/-innen in der stationären und teilstationären Pflege|GSPAI133|Anzahl|Gesundheitspersonal|AIGG-02|Gesundheitsökonomische Gesamtrechnungen|
+|Vollzeitäquivalente (VZÄ) im Gesundheitswesen je 100 Beschäftigte am 31.12.|GSP131|Anzahl|Gesundheitspersonal|AIGG-02|Gesundheitsökonomische Gesamtrechnungen|
+|Bruttowertschöpfung (in jew. Preisen) je Erwerbstätige/-n i. d. Gesundheitswirtschaft|GSBWS405|EUR|Gesundheitswirtschaft|AIGG-03|Gesundheitsökonomische Gesamtrechnungen|
+|Anteil an der Bruttowertschöpfung der Gesamtwirtschaft im Land|GSBWS404|Prozent|Gesundheitswirtschaft|AIGG-03|Gesundheitsökonomische Gesamtrechnungen|
+|Erwerbstätige in der Gesundheitswirtschaft je 1.000 Einwohner/-innen|GSERW507|Anzahl|Gesundheitswirtschaft|AIGG-03|Gesundheitsökonomische Gesamtrechnungen|
+|Anteil an den Erwerbstätigen der Gesamtwirtschaft im Land|GSERW504|Prozent|Gesundheitswirtschaft|AIGG-03|Gesundheitsökonomische Gesamtrechnungen|
 |Anteil Siedlungs- und Verkehrsfläche an Gesamtfläche|AI0111|Prozent|Flächennutzung nach ALKIS|AI-N-01-2-5|Nachhaltigkeit|
 |Veränderung der Siedlungs- und Verkehrsfläche|AI0112|Prozent|Flächennutzung nach ALKIS|AI-N-01-2-5|Nachhaltigkeit|
 |4-jährige Veränderung der Siedlungs- und Verkehrsfläche je EW|AI0115|qm|Flächennutzung nach ALKIS (4-jährige Veränderung)|AI-N-01-3-5|Nachhaltigkeit|
